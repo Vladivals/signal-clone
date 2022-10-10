@@ -1,0 +1,36 @@
+[debug] [2022-10-10T05:57:04.842Z] ----------------------------------------------------------------------
+[debug] [2022-10-10T05:57:04.843Z] Command:       /usr/local/bin/node /Users/vladivals/signal-clone/node_modules/.bin/firebase emulators:start
+[debug] [2022-10-10T05:57:04.843Z] CLI Version:   11.14.1
+[debug] [2022-10-10T05:57:04.843Z] Platform:      darwin
+[debug] [2022-10-10T05:57:04.843Z] Node Version:  v16.13.2
+[debug] [2022-10-10T05:57:04.844Z] Time:          Mon Oct 10 2022 08:57:04 GMT+0300 (Москва, стандартное время)
+[debug] [2022-10-10T05:57:04.845Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-10T05:57:04.887Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-10T05:57:04.887Z] > authorizing via signed-in user (starostenkovlad@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2022-10-10T05:57:04.905Z] [hub] writing locator at /var/folders/p7/lgwm9js90mz0klvzvzdc1cyr0000gn/T/hub-signal-clone-ced04.json
+[debug] [2022-10-10T05:57:04.916Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/signal-clone-ced04/sites 
+[debug] [2022-10-10T05:57:06.957Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/signal-clone-ced04/sites 200
+[debug] [2022-10-10T05:57:06.957Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/signal-clone-ced04/sites {"sites":[{"name":"projects/signal-clone-ced04/sites/signal-clone-b6d59","defaultUrl":"https://signal-clone-b6d59.web.app","appId":"1:202716420901:web:b6c7841595ffdbe2d458cc","type":"USER_SITE"},{"name":"projects/signal-clone-ced04/sites/signal-clone-ced04","defaultUrl":"https://signal-clone-ced04.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-10-10T05:57:06.957Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/signal-clone-ced04/webApps/-/config [none]
+[debug] [2022-10-10T05:57:07.841Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/signal-clone-ced04/webApps/-/config 200
+[debug] [2022-10-10T05:57:07.841Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/signal-clone-ced04/webApps/-/config {"projectId":"signal-clone-ced04","appId":"1:202716420901:web:b6c7841595ffdbe2d458cc","storageBucket":"signal-clone-ced04.appspot.com","locationId":"us-central","apiKey":"AIzaSyDb4DtHgZtHyTMz9CH_Ew0HAojeTYlcUtw","authDomain":"signal-clone-ced04.firebaseapp.com","messagingSenderId":"202716420901"}
+[info] i  hosting: Serving hosting files from: web-build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mweb-build\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] ⚠  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

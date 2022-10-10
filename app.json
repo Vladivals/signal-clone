@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "signal-clone",
-    "slug": "signal-clone",
+    "slug": "signal-clone1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,6 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "owner": "vladivals",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
